@@ -1,7 +1,7 @@
 // controllers/userController.js
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("../models/user"); // 引入 Mongoose 模型
+const User = require("../models/User"); // 引入 Mongoose 模型
 
 // 生成 JWT
 const generateToken = (user) => {
